@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Index Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Welcome to the PWA</h1>
+    <p>Visit the pages to unlock the buttons:</p>
+    <div id="button-container">
+        <button id="button1" onclick="location.href='src/pages/page1.html'">Page 1</button>
+        <button id="button2" onclick="location.href='src/pages/page2.html'">Page 2</button>
+        <button id="button3" onclick="location.href='src/pages/page3.html'">Page 3</button>
+        <button id="button4" onclick="location.href='src/pages/page4.html'">Page 4</button>
+        <button id="button5" onclick="location.href='src/pages/page5.html'">Page 5</button>
+        <button id="button6" onclick="location.href='src/pages/page6.html'">Page 6</button>
+        <button id="button7" onclick="location.href='src/pages/page7.html'">Page 7</button>
+        <button id="button8" onclick="location.href='src/pages/page8.html'">Page 8</button>
+        <button id="button9" onclick="location.href='src/pages/page9.html'">Page 9</button>
+    </div>
+    <script>
+        for (let i = 1; i <= 9; i++) {
+            if (localStorage.getItem('visited-page' + i)) {
+                document.getElementById('button' + i).disabled = false;
+            } else {
+                document.getElementById('button' + i).disabled = true;
+            }
+        }
+    </script>
+</body>
+</html>

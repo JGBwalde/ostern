@@ -1,0 +1,25 @@
+{
+  "name": "pwa-app",
+  "version": "1.0.0",
+  "description": "A simple Progressive Web App with multiple pages and button functionality based on page visits.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "serve public",
+    "build": "parcel build public/index.html --out-dir dist",
+    "serve": "parcel serve public/index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.1"
+  },
+  "keywords": [
+    "PWA",
+    "progressive",
+    "web",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
