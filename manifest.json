@@ -1,11 +1,11 @@
 {
   "name": "PWA App",
   "short_name": "PWA",
-  "start_url": "/public/index.html",
+  "start_url": "/ostern/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "description": "A simple PWA with multiple pages.",
+  "description": "A simple PWA for JGBjörnwalde Osterspaziergang.",
   "icons": [
     {
       "src": "icon-192x192.png",

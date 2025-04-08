@@ -6,15 +6,16 @@ self.addEventListener('install', function(event) {
                 '/index.html',
                 '/manifest.json',
                 '/styles/styles.css',
-                '/pages/page1.html',
-                '/pages/page2.html',
-                '/pages/page3.html',
-                '/pages/page4.html',
-                '/pages/page5.html',
-                '/pages/page6.html',
-                '/pages/page7.html',
-                '/pages/page8.html',
-                '/pages/page9.html'
+                '/src/pages/1suehnedeckelsuehneopfer.html',
+                '/src/pages/2suendenbockasasel.html',
+                '/src/pages/3endederrache.html',
+                '/src/pages/4passalamm.html',
+                '/src/pages/5loesegeld.html',
+                '/src/pages/6bronzeneschlange.html',
+                '/src/pages/7siegerueberteufel.html',
+                '/src/pages/8fluch.html',
+                '/src/pages/9maertyrer.html',
+                '/src/pages/10strafuebernahme.html'
             ]);
         })
     );
