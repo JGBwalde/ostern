@@ -41,7 +41,10 @@ h1 {
 }
 
 #circle-container {
-    position: relative;
+    position: absolute;
+    top: 30%; /* Zentriere vertikal */
+    left: 50%; /* Zentriere horizontal */
+    transform: translate(-50%, -50%); /* Korrigiere die Zentrierung */
     width: 100vw; /* Größe des Kreises */
     height: 100vw;
     margin: 5px auto; /* Zentriert den Kreis */
