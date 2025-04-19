@@ -82,17 +82,15 @@ h1 {
     transform: scale(1.1); /* Vergrößert den Button beim Hover */
 }
 
-#circle-container button:nth-child(1) { transform: translate(0, -200px); }
-#circle-container button:nth-child(2) { transform: translate(150px, -150px); }
-#circle-container button:nth-child(3) { transform: translate(200px, 0); }
-#circle-container button:nth-child(4) { transform: translate(150px, 150px); }
-#circle-container button:nth-child(5) { transform: translate(0, 200px); }
-#circle-container button:nth-child(6) { transform: translate(-150px, 150px); }
-#circle-container button:nth-child(7) { transform: translate(-200px, 0); }
-#circle-container button:nth-child(8) { transform: translate(-150px, -150px); }
-#circle-container button:nth-child(9) { /* Button in der Mitte */
-    transform: translate(0, 0);
-}
+#circle-container button:nth-child(1) { transform: translate(0, -120px); }
+#circle-container button:nth-child(2) { transform: translate(85px, -85px); }
+#circle-container button:nth-child(3) { transform: translate(120px, 0); }
+#circle-container button:nth-child(4) { transform: translate(85px, 85px); }
+#circle-container button:nth-child(5) { transform: translate(0, 120px); }
+#circle-container button:nth-child(6) { transform: translate(-85px, 85px); }
+#circle-container button:nth-child(7) { transform: translate(-120px, 0); }
+#circle-container button:nth-child(8) { transform: translate(-85px, -85px); }
+#circle-container button:nth-child(9) { transform: translate(0, 0); }
 
 #circle-container button:nth-child(10) {
     transform: translate(0px, 330px); /* Position unterhalb des Kreises */
@@ -116,8 +114,8 @@ h1 {
     position: absolute;
     top: 5px; /* Abstand vom oberen Rand */
     left: 5px; /* Abstand vom linken Rand */
-    background-color:white; /* Grüne Hintergrundfarbe */
-    color: black; /* Weiße Schriftfarbe */
+    background-color:white; /* Hintergrundfarbe */
+    color: black; /* Schriftfarbe */
     padding: 10px 15px; /* Innenabstand */
     text-decoration: none; /* Entfernt die Unterstreichung */
     border-radius: 5px; /* Runde Ecken */
