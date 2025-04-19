@@ -42,8 +42,8 @@ h1 {
 
 #circle-container {
     position: relative;
-    width: 70vw; /* Größe des Kreises */
-    height: 70vw;
+    width: 100vw; /* Größe des Kreises */
+    height: 100vw;
     margin: 5px auto; /* Zentriert den Kreis */
     border-radius: 50%; /* Macht den Container rund */
     display: flex;
@@ -53,8 +53,8 @@ h1 {
 
 #circle-container button {
     position: absolute;
-    width: 80px; /* Größe der Buttons */
-    height: 80px;
+    width: 90px; /* Größe der Buttons */
+    height: 90px;
     border-radius: 50%; /* Runde Buttons */
     border: none;
     background-color: #ccc;
@@ -95,7 +95,7 @@ h1 {
 }
 
 #circle-container button:nth-child(10) {
-    transform: translate(0px, 400px); /* Position unterhalb des Kreises */
+    transform: translate(0px, 330px); /* Position unterhalb des Kreises */
     background-color: transparent; /* Entfernt den Hintergrund */
     border: none; /* Entfernt den Rahmen */
     width: auto; /* Passt die Breite an den Inhalt an */
@@ -105,7 +105,7 @@ h1 {
 }
 
 #circle-container button:nth-child(10) img {
-    width: 500px; /* Bild behält seine natürliche Breite */
+    width: 400px; /* Bild behält seine natürliche Breite */
     height: auto; /* Bild behält seine natürliche Höhe */
     object-fit: contain; /* Bild wird nicht beschnitten */
     border-radius: 0; /* Entfernt die runde Form des Bildes */
