@@ -5,23 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PWA Index Page</title>
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
 </head>
 <body>
-    <h1>Welcome to the PWA</h1>
-    <p>Visit the pages to unlock the buttons:</p>
-    <div id="button-container">
-        <button id="button1" onclick="location.href='src/pages/1suehnedeckelsuehneopfer.html'">Page 1</button>
-        <button id="button2" onclick="location.href='src/pages/2suendenbockasasel.html'">Page 2</button>
-        <button id="button3" onclick="location.href='src/pages/3endederrache.html'">Page 3</button>
-        <button id="button4" onclick="location.href='src/pages/4passalamm.html'">Page 4</button>
-        <button id="button5" onclick="location.href='src/pages/5loesegeld.html'">Page 5</button>
-        <button id="button6" onclick="location.href='src/pages/6bronzeneschlange.html'">Page 6</button>
-        <button id="button7" onclick="location.href='src/pages/7siegerueberteufel.html'">Page 7</button>
-        <button id="button8" onclick="location.href='src/pages/8fluch.html'">Page 8</button>
-        <button id="button9" onclick="location.href='src/pages/9maertyrer.html'">Page 9</button>
-        <button id="button10" onclick="location.href='src/pages/10strafuebernahme.html'">Page 10</button>
+    <div id="circle-container">
+        <button id="button1" onclick="location.href='src/pages/1suehnedeckelsuehneopfer.html'">
+            <img src="src/buttonSymbols/1Sühnedeckel.png" alt="Page 1">
+        </button>
+        <button id="button2" onclick="location.href='src/pages/2suendenbockasasel.html'">
+            <img src="src/buttonSymbols/2Sündenbock.png" alt="Page 2">
+        </button>
+        <button id="button3" onclick="location.href='src/pages/3endederrache.html'">
+            <img src="src/buttonSymbols/3Ende der Rache.png" alt="Page 3">
+        </button>
+        <button id="button4" onclick="location.href='src/pages/4passalamm.html'">
+            <img src="src/buttonSymbols/4Passalamm.png" alt="Page 4">
+        </button>
+        <button id="button5" onclick="location.href='src/pages/5loesegeld.html'">
+            <img src="src/buttonSymbols/5Lösegeld.png" alt="Page 5">
+        </button>
+        <button id="button6" onclick="location.href='src/pages/6bronzeneschlange.html'">
+            <img src="src/buttonSymbols/6Bronzeneschlange.png" alt="Page 6">
+        </button>
+        <button id="button7" onclick="location.href='src/pages/7siegerueberteufel.html'">
+            <img src="src/buttonSymbols/7SiegerüberTeufel.png" alt="Page 7">
+        </button>
+        <button id="button8" onclick="location.href='src/pages/8fluch.html'">
+            <img src="src/buttonSymbols/8Fluch.png" alt="Page 8">
+        </button>
+        <button id="button9" onclick="location.href='src/pages/9maertyrer.html'">
+            <img src="src/buttonSymbols/9Martyrer.png" alt="Page 9">
+        </button>
+        <button id="button10" onclick="location.href='src/pages/10strafuebernahme.html'">
+            <img src="src/buttonSymbols/10Strafübernahme.png" alt="Page 10">
+        </button>
     </div>
+    <!--
     <script>
         for (let i = 1; i <= 10; i++) {
             if (localStorage.getItem('visited-page' + i)) {
@@ -31,5 +50,6 @@
             }
         }
     </script>
+    -->
 </body>
 </html>

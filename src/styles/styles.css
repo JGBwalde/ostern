@@ -39,3 +39,75 @@ h1 {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+#circle-container {
+    position: relative;
+    width: 90vw; /* Größe des Kreises */
+    height: 90vw;
+    margin: 5px auto; /* Zentriert den Kreis */
+    border-radius: 50%; /* Macht den Container rund */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-container button {
+    position: absolute;
+    width: 20vw; /* Größe der Buttons */
+    height: 20vw;
+    border-radius: 50%; /* Runde Buttons */
+    border: none;
+    background-color: #ccc;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#circle-container button img {
+    width: 100%; /* Bild passt sich der Button-Größe an */
+    height: 100%;
+    object-fit: cover; /* Bild wird skaliert, um den Button zu füllen */
+    border-radius: 50%; /* Macht das Bild rund */
+    display: block; /* Entfernt zusätzlichen Inline-Abstand */
+}
+
+#circle-container button:nth-child(9) img {
+    width: 100%; /* Bildgröße relativ zum Button */
+    height: auto; /* Behalte das Seitenverhältnis bei */
+}
+
+#circle-container button:hover {
+    transform: scale(1.1); /* Vergrößert den Button beim Hover */
+}
+
+#circle-container button:nth-child(1) { transform: translate(0, -200px); }
+#circle-container button:nth-child(2) { transform: translate(150px, -150px); }
+#circle-container button:nth-child(3) { transform: translate(200px, 0); }
+#circle-container button:nth-child(4) { transform: translate(150px, 150px); }
+#circle-container button:nth-child(5) { transform: translate(0, 200px); }
+#circle-container button:nth-child(6) { transform: translate(-150px, 150px); }
+#circle-container button:nth-child(7) { transform: translate(-200px, 0); }
+#circle-container button:nth-child(8) { transform: translate(-150px, -150px); }
+#circle-container button:nth-child(9) { /* Button in der Mitte */
+    transform: translate(0, 0);
+}
+
+#circle-container button:nth-child(10) {
+    transform: translate(0px, 400px); /* Position unterhalb des Kreises */
+    background-color: transparent; /* Entfernt den Hintergrund */
+    border: none; /* Entfernt den Rahmen */
+    width: auto; /* Passt die Breite an den Inhalt an */
+    height: auto; /* Passt die Höhe an den Inhalt an */
+    border-radius: 0; /* Entfernt die runde Form */
+    padding: 0; /* Entfernt zusätzlichen Innenabstand */
+}
+
+#circle-container button:nth-child(10) img {
+    width: 500px; /* Bild behält seine natürliche Breite */
+    height: auto; /* Bild behält seine natürliche Höhe */
+    object-fit: contain; /* Bild wird nicht beschnitten */
+    border-radius: 0; /* Entfernt die runde Form des Bildes */
+    display: block; /* Entfernt zusätzlichen Inline-Abstand */
+}
