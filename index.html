@@ -9,6 +9,10 @@
 </head>
 <body>
     <a href="/einleitung.html" class="back-button">Einleitung</a>
+    <a href="https://www.komoot.com/de-de/tour/2118348179?share_token=aaGBGSWJBagaOw646ZHOxUX44343fFbPRniNx816QIhV4b6wIF&ref=wtd" 
+   class="komoot-link" 
+   target="_blank" 
+   rel="noopener noreferrer">Komoot</a>
     <div id="circle-container">
         <button id="button1" onclick="location.href='src/pages/1suehnedeckelsuehneopfer.html'">
             <img src="src/buttonSymbols/1Sühnedeckel.png" alt="Page 1">
@@ -41,16 +45,20 @@
             <img src="src/buttonSymbols/10Strafübernahme.png" alt="Page 10">
         </button>
     </div>
-    <!--
+    
     <script>
         for (let i = 1; i <= 10; i++) {
+            const button = document.getElementById('button' + i);
+
+            // Überprüfen, ob die Seite besucht wurde
             if (localStorage.getItem('visited-page' + i)) {
-                document.getElementById('button' + i).disabled = false;
+                button.disabled = false; // Button aktivieren
+                button.classList.add('visited-' + i); // Individuelle Farbe hinzufügen
             } else {
-                document.getElementById('button' + i).disabled = true;
+                button.disabled = true; // Button deaktivieren
             }
         }
     </script>
-    -->
+    
 </body>
 </html>

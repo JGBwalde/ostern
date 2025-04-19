@@ -128,5 +128,60 @@ h1 {
 }
 
 .back-button:hover {
-    background-color: #45a049; /* Etwas dunkleres Grün beim Hover */
+    background-color: gray; /* Etwas dunkleres Grün beim Hover */
 }
+
+.komoot-link {
+    position: absolute;
+    top: 5px; /* Abstand vom oberen Rand */
+    right: 5px; /* Abstand vom linken Rand */
+    background-color:white; /* Hintergrundfarbe */
+    color: black; /* Schriftfarbe */
+    padding: 10px 15px; /* Innenabstand */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    border-radius: 5px; /* Runde Ecken */
+    font-size: 14px; /* Schriftgröße */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Schatten für einen 3D-Effekt */
+    z-index: 1000; /* Stellt sicher, dass der Button über anderen Elementen liegt */
+}
+
+.komoot-link:hover {
+    background-color: gray; /* Etwas dunkleres Grün beim Hover */
+}
+
+#circle-container button.visited-1 {
+    background-color: #FF5733; /* Rot für Button 1 */
+}
+
+#circle-container button.visited-2 {
+    background-color: #33FF57; /* Grün für Button 2 */
+}
+
+#circle-container button.visited-3 {
+    background-color: #3357FF; /* Blau für Button 3 */
+}
+
+#circle-container button.visited-4 {
+    background-color: #FFC300; /* Gelb für Button 4 */
+}
+
+#circle-container button.visited-5 {
+    background-color: #DAF7A6; /* Hellgrün für Button 5 */
+}
+
+#circle-container button.visited-6 {
+    background-color: #C70039; /* Dunkelrot für Button 6 */
+}
+
+#circle-container button.visited-7 {
+    background-color: #900C3F; /* Weinrot für Button 7 */
+}
+
+#circle-container button.visited-8 {
+    background-color: #581845; /* Lila für Button 8 */
+}
+
+#circle-container button.visited-9 {
+    background-color: #1C1C1C; /* Schwarz für Button 9 */
+}
+
