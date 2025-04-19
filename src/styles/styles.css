@@ -42,8 +42,8 @@ h1 {
 
 #circle-container {
     position: relative;
-    width: 80vw; /* Größe des Kreises */
-    height: 80vw;
+    width: 70vw; /* Größe des Kreises */
+    height: 70vw;
     margin: 5px auto; /* Zentriert den Kreis */
     border-radius: 50%; /* Macht den Container rund */
     display: flex;
