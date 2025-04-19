@@ -111,3 +111,21 @@ h1 {
     border-radius: 0; /* Entfernt die runde Form des Bildes */
     display: block; /* Entfernt zusätzlichen Inline-Abstand */
 }
+
+.back-button {
+    position: absolute;
+    top: 5px; /* Abstand vom oberen Rand */
+    left: 5px; /* Abstand vom linken Rand */
+    background-color:white; /* Grüne Hintergrundfarbe */
+    color: black; /* Weiße Schriftfarbe */
+    padding: 10px 15px; /* Innenabstand */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    border-radius: 5px; /* Runde Ecken */
+    font-size: 14px; /* Schriftgröße */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Schatten für einen 3D-Effekt */
+    z-index: 1000; /* Stellt sicher, dass der Button über anderen Elementen liegt */
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Etwas dunkleres Grün beim Hover */
+}
