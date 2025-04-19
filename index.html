@@ -54,6 +54,7 @@
             if (localStorage.getItem('visited-page' + i)) {
                 button.disabled = false; // Button aktivieren
                 button.classList.add('visited-' + i); // Individuelle Farbe hinzufügen
+                button.classList.add('visited'); // Klasse für besuchte Buttons hinzufügen
             } else {
                 button.disabled = true; // Button deaktivieren
             }
