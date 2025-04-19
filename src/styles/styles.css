@@ -74,6 +74,11 @@ h1 {
     object-fit: cover; /* Bild wird skaliert, um den Button zu füllen */
     border-radius: 50%; /* Macht das Bild rund */
     display: block; /* Entfernt zusätzlichen Inline-Abstand */
+    filter: grayscale(100%); /* Macht das Bild schwarz-weiß */
+}
+
+#circle-container button.visited img {
+    filter: none; /* Entfernt den Schwarz-Weiß-Effekt */
 }
 
 #circle-container button:nth-child(9) img {
@@ -106,7 +111,7 @@ h1 {
 }
 
 #circle-container button:nth-child(10) img {
-    width: 400px; /* Bild behält seine natürliche Breite */
+    width: 300px; /* Bild behält seine natürliche Breite */
     height: auto; /* Bild behält seine natürliche Höhe */
     object-fit: contain; /* Bild wird nicht beschnitten */
     border-radius: 0; /* Entfernt die runde Form des Bildes */
@@ -182,6 +187,7 @@ h1 {
 }
 
 #circle-container button.visited-9 {
-    background-color: #737373; /* Schwarz für Button 9 */
+    background-color: rgb(123, 247, 230); /* Schwarz für Button 9 */
 }
+
 
