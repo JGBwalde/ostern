@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 h1 {
@@ -42,8 +42,8 @@ h1 {
 
 #circle-container {
     position: relative;
-    width: 90vw; /* Größe des Kreises */
-    height: 90vw;
+    width: 80vw; /* Größe des Kreises */
+    height: 80vw;
     margin: 5px auto; /* Zentriert den Kreis */
     border-radius: 50%; /* Macht den Container rund */
     display: flex;
@@ -53,8 +53,8 @@ h1 {
 
 #circle-container button {
     position: absolute;
-    width: 20vw; /* Größe der Buttons */
-    height: 20vw;
+    width: 80px; /* Größe der Buttons */
+    height: 80px;
     border-radius: 50%; /* Runde Buttons */
     border: none;
     background-color: #ccc;
